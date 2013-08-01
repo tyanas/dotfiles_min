@@ -1,6 +1,6 @@
 [user]
-	name = yourname
-	email = your@email.com
+    name = yourname
+    email = your@email.com
 
 [color]
     diff = auto
