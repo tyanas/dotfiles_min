@@ -1,0 +1,25 @@
+[user]
+	name = yourname
+	email = your@email.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = auto
+
+[core]
+    editor = vim
+    pager = less -R
+    excludesfile = /path/to/home/.gitignore_global
+
+[alias]
+    st = status
+    ci = commit
+    cim = commit -a -m
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    up = !sh -c 'git pull --rebase --prune && git log --pretty=format:\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\" HEAD@{1}..'
+    ls = ls-files

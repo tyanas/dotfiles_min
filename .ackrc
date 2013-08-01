@@ -1,0 +1,7 @@
+# ack --help type
+--type-add=shell=.conf,.template
+--type-add=css=.less,.sass
+--type-add=html=.handlebars
+--type-add=html=.jade
+--type-set=rst=.txt, .rst, .md
+--ignore-dir=node_modules

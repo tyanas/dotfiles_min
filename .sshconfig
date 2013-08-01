@@ -1,0 +1,16 @@
+# put it in ~/.ssh/config
+
+# you can type in terminal
+# $ ssh dev
+# and go one
+Host dev
+    HostName dev.yourdoma.in
+    User yourname
+    ForwardAgent yes
+    IdentityFile ~/.ssh/some_id_rsa
+
+Host github
+    HostName github.com
+    User yourname
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/github_id_rsa
